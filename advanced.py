@@ -28,6 +28,8 @@ frame_counter = 0
 # Start webcam feed
 cap = cv2.VideoCapture(0)
 
+#comment test
+
 while True:
     ret, frame = cap.read()
     if not ret:
